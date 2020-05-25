@@ -11,13 +11,44 @@ html{
 
 body{
   font-family: "Century Gothic", sans-serif;
-  background-color: rgb(204, 157, 248);
+  background-color: #ACACFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
 }
 
 main{
   background-color: #FFF;
-  width: 500px;
-  margin: auto;
+  width: 560px;
   padding: 10px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.500)
+}
+
+h1{
+  color: rgb(58, 0, 112);
+}
+
+h1, h2, p{
+  margin: 10px 0;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(58, 0, 112);
+}
+
+a:hover{
+  text-decoration: underline;
+  color: rgb(26, 26, 255);
+}
+
+img.lado{
+  float: right;
+}
+
+.voltar{
+  border: 1px solid #000;
+  border-radius: 50%;
 }
